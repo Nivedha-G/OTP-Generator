@@ -6,11 +6,11 @@
 
 import math, random
 def OTPgen(n):
-		digits = "0123456789"
-		OTP = ""
-    for i in range(n):
-				OTP += digits[math.floor(random.random()*10)]
-		return OTP
+   digits = "0123456789"
+   OTP = ""
+   for i in range(n):
+      OTP += digits[math.floor(random.random()*10)]
+      return OTP
 #main function
 print("The 4 digit OTP is: ",OTPgen(4))
 
